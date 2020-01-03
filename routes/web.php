@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/start', function() {
+    return view('start');
+});
+Route::get('/lesson1', function(){
+    return view('lesson.chapter1');
+});
