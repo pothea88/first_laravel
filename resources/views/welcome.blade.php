@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    WEP 2020-A
                 </div>
 
                 <div class="links">
