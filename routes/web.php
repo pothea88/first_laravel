@@ -20,3 +20,7 @@ Route::get('/start', function() {
 Route::get('/lesson1', function(){
     return view('lesson.chapter1');
 });
+
+Route::get('/student/{id}',function($id){
+    return "Hello student ".$id." of WEP2020A";
+}) -> name('show.student');
